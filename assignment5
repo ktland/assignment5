@@ -1,0 +1,3 @@
+FROM debian:latest
+WORKDIR /application
+RUN --mount=type=tmpfs,target=/application
